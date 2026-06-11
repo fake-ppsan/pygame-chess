@@ -30,7 +30,7 @@ HOW TO RUN:
 
 1. Clone the repository
 
->>> git clone https://github.com/fake-pp-san/pygame-chess.git
+>>> git clone https://github.com/fake-ppsan/pygame-chess.git
 
 2. Install Pygame 
 
