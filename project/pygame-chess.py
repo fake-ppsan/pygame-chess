@@ -127,14 +127,6 @@ board[7][2] = board[7][5] = "wb"
 board[7][3] = "wq"
 board[7][4] = "wk"
 
-''' new_rank, new_file = clicked_square
-    board[new_rank][new_file] = board[old_rank][old_file]
-    board[old_rank][old_file] = None
-    selected_square = None'''
-''' if current_turn == "w":
-        current_turn = "b"
-    else:
-        current_turn ="w"'''
 
 
 
