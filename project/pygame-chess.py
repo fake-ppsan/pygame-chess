@@ -73,8 +73,6 @@ en_passant_target = None
 
 white_king_pos = (7,4)
 black_king_pos = (0,4)
-wk_rank, wk_file = white_king_pos
-bk_rank, bk_file = black_king_pos
 
 legal_moves = []
 capture_moves = []
