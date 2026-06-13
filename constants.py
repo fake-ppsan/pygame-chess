@@ -1,3 +1,5 @@
+
+
 SCREEN_WIDTH = 1280
 SCREEN_HEIGHT = 740
 
@@ -23,3 +25,5 @@ PIECE_VALUE = {
     "r": 5,
     "q": 9
     }
+
+
