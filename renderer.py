@@ -1,6 +1,35 @@
 from constants import *
 import pygame
 
+piece_names = [
+    "wp","wn","wb","wr","wq","wk",
+    "bp","bn","bb","br","bq","bk"
+    ]
+
+piece_images = {}
+captured_piece_images = {}
+
+def load_piece_images():
+    for piece in piece_names:
+
+        image = pygame.image.load(
+            f"pieces/{piece}.png"
+            )
+
+        piece_images[piece] = pygame.transform.smoothscale(
+            image,
+            (SQUARE_SIZE, SQUARE_SIZE)
+            )
+
+        captured_piece_images[piece] = pygame.transform.smoothscale(
+            image,
+            (40, 40)
+            )
+        
+    return piece_images, captured_piece_images
+
+piece_images, captured_piece_images = load_piece_images()
+
 
 def draw_board(screen,
                selected_square,
